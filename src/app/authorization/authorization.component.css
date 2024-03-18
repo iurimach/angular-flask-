@@ -1,0 +1,302 @@
+.registrciontitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    max-width: 1920px;
+
+ margin-top: 31px;
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-around;
+ 
+ }
+ .div1{
+ max-width: 515px;
+ height: auto;
+ margin: 0 auto;
+ 
+ }
+ .header>h2{
+ max-width: 302px;
+ width: 100%;
+ height: 24px;
+ 
+ 
+ font-family: 'FiraGO';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 32px;
+ line-height: 24px;
+ 
+ display: flex;
+ align-items: center;
+ letter-spacing: 7px;
+ font-feature-settings: 'case' on;
+ 
+ color: #07A4C5;
+ }
+ 
+ .label1{
+    max-width: 515px;
+    width: 100%;
+ height: 24px;
+ font-family: 'FiraGO';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 24px;
+ margin-top: 20px;
+ display: flex;
+ align-items: center;
+ font-feature-settings: 'case' on;
+ color: #000000;
+ 
+ flex: none;
+ order: 0;
+ align-self: stretch;
+ flex-grow: 0;
+ }
+ 
+ 
+ .inputusername{
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 12px 14px;
+     margin-top: 10px;
+     width: 515px;
+     height: 50px;
+     background: #FFFFFF;
+     border: 1px solid #EBEBEB;
+     border-radius: 8px;
+     flex: none;
+     order: 1;
+     align-self: stretch;
+     flex-grow: 0;
+}
+ 
+ 
+ .inputusername:hover, .passwordinput:hover{
+     
+     border: 1ex solid none;    
+ }
+ .inputusername:focus, .passwordinput:focus{
+     color: #FFFFFF;
+     background-color: #a09595;
+ }
+ .label2{
+ max-width: 515px;
+ width: 100%;
+ height: 24px;
+ 
+ font-family: 'FiraGO';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 24px;
+ margin-top: 20px;
+ 
+ display: flex;
+ align-items: center;
+ font-feature-settings: 'case' on;
+ 
+ color: #000000;
+ flex: none;
+ order: 0;
+ align-self: stretch;
+ flex-grow: 0;
+     }
+ 
+ 
+.passwordinput{
+ box-sizing: border-box; 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 19px 16px 12px;
+ margin-top: 10px;
+ 
+ width: 515px;
+ height: 50px;
+ background: #FFFFFF;
+ border: 1px solid #EBEBEB;
+ border-radius: 8px;
+ flex: none;
+ order: 1;
+ align-self: stretch;
+ flex-grow: 0;
+ }
+ 
+
+
+.buttondiv{
+   
+    display: flex;
+    height: 50px;
+   
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.autorization_a{
+    text-decoration: none;
+    display: flex;
+    color: #ffffff;
+    height: 50px;
+   
+}
+
+/* CSS button */
+.button-21 {
+   
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 3px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  display: flex;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+.button-21 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-21:active,
+  .button-21:hover {
+    outline: 0;
+  }
+  
+  .button-21 span {
+    background-color: rgb(5, 6, 45);
+    padding: 6px 6px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-21:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-21 {
+      font-size: 20px;
+      min-width: 96px;
+    }
+  }
+
+
+/* ბუტტონ სტილი autorization */
+
+
+
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1em;
+  width: 120px;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 6px 6px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.button-64:hover span {
+  background: none;
+}

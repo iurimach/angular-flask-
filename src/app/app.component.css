@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+/* navigacia iwyeba aq */
+
+.navigation{
+    width: 100%;
+    
+    height: 60px;
+    background-color: rgb(71, 67, 67);
+    display: flex;
+  
+}
+.navigationul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+.navigationli{
+    margin-left: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.navigationli:hover{
+  background-color: #36c036; 
+
+ 
+  box-shadow: 0 4px 8px rgba(62, 244, 6, 0.1);
+}
+
+
+.updatepassword{
+    color: rgb(206, 206, 15);
+   
+    text-decoration: none;
+
+   
+}
+.gasvla{
+    color: red;
+    margin-left: 20px;
+    text-decoration: none;
+   
+    
+}
